@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sxksnd.github.io/</loc>
+    <lastmod>2025-06-22T16:34:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://sxksnd.github.io/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://sxksnd.github.io/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://sxksnd.github.io/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sxksnd.github.io/"
+                />
+  </url><url>
+    <loc>https://sxksnd.github.io/about/</loc>
+    <lastmod>2025-06-22T16:34:00+08:00</lastmod>
+  </url><url>
     <loc>https://sxksnd.github.io/categories/</loc>
     <lastmod>2025-06-22T16:24:00+08:00</lastmod>
     <xhtml:link
@@ -57,29 +83,6 @@
     <loc>https://sxksnd.github.io/post/25-6-22/</loc>
     <lastmod>2025-06-22T16:24:00+08:00</lastmod>
   </url><url>
-    <loc>https://sxksnd.github.io/</loc>
-    <lastmod>2025-06-22T16:24:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://sxksnd.github.io/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://sxksnd.github.io/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://sxksnd.github.io/zh-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://sxksnd.github.io/"
-                />
-  </url><url>
     <loc>https://sxksnd.github.io/post/intro/</loc>
     <lastmod>2025-06-21T20:11:13+08:00</lastmod>
   </url><url>
@@ -99,9 +102,6 @@
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
     <loc>https://sxksnd.github.io/post/chinese/</loc>
-    <lastmod>2022-06-09T20:12:52+08:00</lastmod>
-  </url><url>
-    <loc>https://sxksnd.github.io/about/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
     <loc>https://sxksnd.github.io/friend/</loc>
