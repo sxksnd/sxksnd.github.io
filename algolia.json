@@ -1,5 +1,11 @@
 [
   {
+    "objectID": "1750507873",
+    "permalink": "/post/intro/",
+    "title": "各位好啊!","content": "\r自我介紹\r大家好，我是就讀於二信高中P115班的蘇祐君 興趣是耍費跟寫程式\n目前正在努力備戰學測\u0026amp;\u0026amp;學科能競\n這個網站的用途？\r自己需要有系統的整理自己學過的東西\u0026amp;\u0026amp;計畫，才不會讓生活亂掉，所以架設了這個網站來記錄自己學習程式的過程\n主要是為了炫耀\n今天就先這樣吧，tm明天還要上國文然後我東西還沒補qwq\n","date": "2025-06-21 20:11:13",
+    "updated": "2025-06-21 20:11:13"
+  }, 
+  {
     "objectID": "1654776772",
     "permalink": "/post/main/",
     "title": "Markdown Basic Elements","content": "\rMarkdown 基本元素\r标题\rH1\rH2\rH3\rH4\rH5\rH6\r强调\rEmphasis, aka italics, with asterisks or underscores.\nStrong emphasis, aka bold, with asterisks or underscores.\nCombined emphasis with asterisks and underscores.\nStrikethrough uses two tildes. Scratch this.\n列表\rDefinition List (dl)\rOrdered List (ol)\rList Item 1 List Item 2 List Item 3 Unordered List (ul)\rList Item 1 List Item 2 List Item 3 段落\rLorem ipsum dolor sit amet, test link consectetur adipiscing elit. Strong text pellentesque ligula commodo viverra vehicula. Italic text at ullamcorper enim. Morbi a euismod nibh. Underline text non elit nisl. Deleted text tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam …","date": "2022-06-09 20:12:52",

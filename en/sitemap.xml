@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sxksnd.github.io/archives/</loc>
-    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+    <loc>https://sxksnd.github.io/post/intro/</loc>
+    <lastmod>2025-06-21T20:11:13+08:00</lastmod>
   </url><url>
     <loc>https://sxksnd.github.io/</loc>
-    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+    <lastmod>2025-06-21T20:11:13+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -27,6 +27,9 @@
                 hreflang="en"
                 href="https://sxksnd.github.io/"
                 />
+  </url><url>
+    <loc>https://sxksnd.github.io/archives/</loc>
+    <lastmod>2022-07-26T21:46:25+08:00</lastmod>
   </url><url>
     <loc>https://sxksnd.github.io/categories/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
