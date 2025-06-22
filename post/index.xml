@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>矽夏の夢想之地</title>
-    <link>https://sxksnd.github.io/algolia.json</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content from 矽夏の夢想之地</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -12,47 +12,21 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Sun, 22 Jun 2025 16:24:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 20:11:13 +0800</lastBuildDate>
     
     
-    <atom:link href="https://sxksnd.github.io/index.xml" rel="self" type="application/rss&#43;xml" />
-    
-
-    
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
-    <item>
-      <title>日記：2025/6/22</title>
-      <link>https://sxksnd.github.io/post/25-6-22/</link>
-      <pubDate>Sun, 22 Jun 2025 16:24:00 &#43;0800</pubDate>
-      <author>shixia1108@gmail.com (ShiXia)</author>
-      <guid>https://sxksnd.github.io/post/25-6-22/</guid>
-      <description>
-        <![CDATA[<h1>日記：2025/6/22</h1><p>Author: ShiXia(shixia1108@gmail.com)</p>
-        
-          <h1 id="重大決定">
-<a class="header-anchor" href="#%e9%87%8d%e5%a4%a7%e6%b1%ba%e5%ae%9a"></a>
-重大決定!!!
-</h1><p>今天終於把網站架設好了qwq，昨天一直卡在上傳至github
-今日這邊會更新我學習的筆記&amp;&amp;每日日記
-希望可以一直堅持下去</p>
-<p>之後也會更新是怎麼架設這個網站以及我踩到的一些坑<del>以及如何魔改這個主題，讓網站充滿自己的老婆</del></p>
-        
-        <hr><p>Published on 2025-06-22 at <a href='https://sxksnd.github.io/'>矽夏の夢想之地</a>, last modified on 2025-06-22</p>]]>
-      </description>
-      
-        <category>diary</category>
-      
-    </item>
     
     
 
     <item>
       <title>各位好啊!</title>
-      <link>https://sxksnd.github.io/post/intro/</link>
+      <link>http://localhost:1313/post/intro/</link>
       <pubDate>Sat, 21 Jun 2025 20:11:13 &#43;0800</pubDate>
       <author>shixia1108@gmail.com (ShiXia)</author>
-      <guid>https://sxksnd.github.io/post/intro/</guid>
+      <guid>http://localhost:1313/post/intro/</guid>
       <description>
         <![CDATA[<h1>各位好啊!</h1><p>Author: ShiXia(shixia1108@gmail.com)</p>
         
@@ -70,7 +44,7 @@
 <blockquote>
 <p>今天就先這樣吧，tm明天還要上國文然後我東西還沒補qwq</p></blockquote>
         
-        <hr><p>Published on 2025-06-21 at <a href='https://sxksnd.github.io/'>矽夏の夢想之地</a>, last modified on 2025-06-21</p>]]>
+        <hr><p>Published on 2025-06-21 at <a href='http://localhost:1313/'>矽夏の夢想之地</a>, last modified on 2025-06-21</p>]]>
       </description>
       
     </item>
@@ -79,10 +53,10 @@
 
     <item>
       <title>中文測試</title>
-      <link>https://sxksnd.github.io/post/chinese/</link>
+      <link>http://localhost:1313/post/chinese/</link>
       <pubDate>Thu, 09 Jun 2022 20:12:52 &#43;0800</pubDate>
       <author>shixia1108@gmail.com (ShiXia)</author>
-      <guid>https://sxksnd.github.io/post/chinese/</guid>
+      <guid>http://localhost:1313/post/chinese/</guid>
       <description>
         <![CDATA[<h1>中文測試</h1><p>Author: ShiXia(shixia1108@gmail.com)</p>
         
@@ -95,7 +69,7 @@
 <p>工步他始能詩的，裝進分星海演意學值例道……於財型目古香亮自和這乎？化經溫詩。只賽嚴大一主價世哥受的沒有中年即病行金拉麼河。主小路了種就小為廣不？</p></blockquote>
 <p><em>From <a href="http://www.richyli.com/tool/loremipsum/">亂數假文產生器 - Chinese Lorem Ipsum</a></em></p>
         
-        <hr><p>Published on 2022-06-09 at <a href='https://sxksnd.github.io/'>矽夏の夢想之地</a>, last modified on 2022-06-09</p>]]>
+        <hr><p>Published on 2022-06-09 at <a href='http://localhost:1313/'>矽夏の夢想之地</a>, last modified on 2022-06-09</p>]]>
       </description>
       
     </item>
@@ -104,10 +78,10 @@
 
     <item>
       <title>Markdown Basic Elements</title>
-      <link>https://sxksnd.github.io/post/main/</link>
+      <link>http://localhost:1313/post/main/</link>
       <pubDate>Thu, 09 Jun 2022 20:12:52 &#43;0800</pubDate>
       <author>shixia1108@gmail.com (ShiXia)</author>
-      <guid>https://sxksnd.github.io/post/main/</guid>
+      <guid>http://localhost:1313/post/main/</guid>
       <description>
         <![CDATA[<h1>Markdown Basic Elements</h1><p>Author: ShiXia(shixia1108@gmail.com)</p>
         
@@ -170,7 +144,7 @@ Unordered List (ul)
 段落
 </h3><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <!-- raw HTML omitted -->Underline text<!-- raw HTML omitted --> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
         
-        <hr><p>Published on 2022-06-09 at <a href='https://sxksnd.github.io/'>矽夏の夢想之地</a>, last modified on 2022-06-09</p>]]>
+        <hr><p>Published on 2022-06-09 at <a href='http://localhost:1313/'>矽夏の夢想之地</a>, last modified on 2022-06-09</p>]]>
       </description>
       
         <category>test</category>
