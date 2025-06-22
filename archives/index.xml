@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:61098/archives/</link>
-    <description>Recent content from My New Hugo Site</description>
+    <title>矽夏の夢想之地</title>
+    <link>https://sxksnd.github.io/archives/</link>
+    <description>Recent content from 矽夏の夢想之地</description>
     <generator>Hugo</generator>
     <language>en</language>
     
-    <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
-    <webMaster>xxx@example.com (D-Sketon)</webMaster>
+    <managingEditor>shixia1108@gmail.com (ShiXia)</managingEditor>
+    <webMaster>shixia1108@gmail.com (ShiXia)</webMaster>
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
     <lastBuildDate></lastBuildDate>
     
     
-    <atom:link href="http://localhost:61098/archives/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://sxksnd.github.io/archives/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

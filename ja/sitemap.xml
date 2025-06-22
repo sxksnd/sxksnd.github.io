@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:61098/ja/categories/</loc>
+    <loc>https://sxksnd.github.io/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:61098/categories/"
+                href="https://sxksnd.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:61098/zh-cn/categories/"
+                href="https://sxksnd.github.io/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:61098/zh-tw/categories/"
+                href="https://sxksnd.github.io/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:61098/ja/categories/"
+                href="https://sxksnd.github.io/ja/categories/"
                 />
   </url><url>
-    <loc>http://localhost:61098/ja/</loc>
+    <loc>https://sxksnd.github.io/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:61098/"
+                href="https://sxksnd.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:61098/zh-cn/"
+                href="https://sxksnd.github.io/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:61098/zh-tw/"
+                href="https://sxksnd.github.io/zh-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:61098/ja/"
+                href="https://sxksnd.github.io/ja/tags/"
                 />
   </url><url>
-    <loc>http://localhost:61098/ja/tags/</loc>
+    <loc>https://sxksnd.github.io/ja/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:61098/tags/"
+                href="https://sxksnd.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:61098/zh-cn/tags/"
+                href="https://sxksnd.github.io/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:61098/zh-tw/tags/"
+                href="https://sxksnd.github.io/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:61098/ja/tags/"
+                href="https://sxksnd.github.io/ja/"
                 />
   </url>
 </urlset>

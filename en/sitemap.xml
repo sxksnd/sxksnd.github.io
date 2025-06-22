@@ -2,97 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:61098/archives/</loc>
+    <loc>https://sxksnd.github.io/archives/</loc>
     <lastmod>2022-07-26T21:46:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:61098/</loc>
+    <loc>https://sxksnd.github.io/</loc>
     <lastmod>2022-07-26T21:46:25+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:61098/ja/"
+                href="https://sxksnd.github.io/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:61098/zh-cn/"
+                href="https://sxksnd.github.io/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:61098/zh-tw/"
+                href="https://sxksnd.github.io/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:61098/"
+                href="https://sxksnd.github.io/"
                 />
   </url><url>
-    <loc>http://localhost:61098/categories/</loc>
+    <loc>https://sxksnd.github.io/categories/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:61098/ja/categories/"
+                href="https://sxksnd.github.io/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:61098/zh-cn/categories/"
+                href="https://sxksnd.github.io/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:61098/zh-tw/categories/"
+                href="https://sxksnd.github.io/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:61098/categories/"
+                href="https://sxksnd.github.io/categories/"
                 />
   </url><url>
-    <loc>http://localhost:61098/tags/markdown/</loc>
+    <loc>https://sxksnd.github.io/tags/markdown/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:61098/post/main/</loc>
+    <loc>https://sxksnd.github.io/post/main/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:61098/tags/</loc>
+    <loc>https://sxksnd.github.io/tags/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:61098/ja/tags/"
+                href="https://sxksnd.github.io/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:61098/zh-cn/tags/"
+                href="https://sxksnd.github.io/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:61098/zh-tw/tags/"
+                href="https://sxksnd.github.io/zh-tw/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:61098/tags/"
+                href="https://sxksnd.github.io/tags/"
                 />
   </url><url>
-    <loc>http://localhost:61098/categories/test/</loc>
+    <loc>https://sxksnd.github.io/categories/test/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:61098/tags/test/</loc>
+    <loc>https://sxksnd.github.io/tags/test/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:61098/post/chinese/</loc>
+    <loc>https://sxksnd.github.io/post/chinese/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:61098/about/</loc>
+    <loc>https://sxksnd.github.io/about/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:61098/friend/</loc>
+    <loc>https://sxksnd.github.io/friend/</loc>
     <lastmod>2022-06-09T20:12:52+08:00</lastmod>
   </url>
 </urlset>

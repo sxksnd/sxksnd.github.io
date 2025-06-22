@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on My New Hugo Site</title>
-    <link>http://localhost:61098/tags/markdown/</link>
-    <description>Recent content from My New Hugo Site</description>
+    <title>Markdown on 矽夏の夢想之地</title>
+    <link>https://sxksnd.github.io/tags/markdown/</link>
+    <description>Recent content from 矽夏の夢想之地</description>
     <generator>Hugo</generator>
     <language>en</language>
     
-    <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
-    <webMaster>xxx@example.com (D-Sketon)</webMaster>
+    <managingEditor>shixia1108@gmail.com (ShiXia)</managingEditor>
+    <webMaster>shixia1108@gmail.com (ShiXia)</webMaster>
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
     <lastBuildDate>Thu, 09 Jun 2022 20:12:52 +0800</lastBuildDate>
     
     
-    <atom:link href="http://localhost:61098/tags/markdown/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://sxksnd.github.io/tags/markdown/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,12 +23,12 @@
 
     <item>
       <title>Markdown Basic Elements</title>
-      <link>http://localhost:61098/post/main/</link>
+      <link>https://sxksnd.github.io/post/main/</link>
       <pubDate>Thu, 09 Jun 2022 20:12:52 &#43;0800</pubDate>
-      <author>xxx@example.com (D-Sketon)</author>
-      <guid>http://localhost:61098/post/main/</guid>
+      <author>shixia1108@gmail.com (ShiXia)</author>
+      <guid>https://sxksnd.github.io/post/main/</guid>
       <description>
-        <![CDATA[<h1>Markdown Basic Elements</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        <![CDATA[<h1>Markdown Basic Elements</h1><p>Author: ShiXia(shixia1108@gmail.com)</p>
         
           <h2 id="markdown-基本元素">
 <a class="header-anchor" href="#markdown-%e5%9f%ba%e6%9c%ac%e5%85%83%e7%b4%a0"></a>
@@ -89,7 +89,7 @@ Unordered List (ul)
 段落
 </h3><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <!-- raw HTML omitted -->Underline text<!-- raw HTML omitted --> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
         
-        <hr><p>Published on 2022-06-09 at <a href='http://localhost:61098/'>My New Hugo Site</a>, last modified on 2022-06-09</p>]]>
+        <hr><p>Published on 2022-06-09 at <a href='https://sxksnd.github.io/'>矽夏の夢想之地</a>, last modified on 2022-06-09</p>]]>
       </description>
       
         <category>test</category>
