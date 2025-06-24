@@ -1,5 +1,17 @@
 [
   {
+    "objectID": "1750667040",
+    "permalink": "/post/plan/%E4%BA%8C%E4%BF%A1training/",
+    "title": "二信訓練相關資訊","content": "\r題單一\rf675. FJCU_109_Winter_Day2_Lab3 二元搜尋樹\nd526. Binary Search Tree (BST)\nf674. FJCU_109_Winter_Day2_Lab2 遍歷樹\nc126. 00536 - Tree Recovery\nd432. 第四題：通關密語 (pwd)\nk652. 二元搜尋樹復原 (BST)\na129. 最小生成樹\na252. Another LCS\nb839. 104北二3.朋友\nf498. Heap\nf650. 今天逗小貓(Heap+-)\nl091. 是否為堆積樹或二元搜尋樹\nd371. 3. Huffman 編碼中的編碼效能問題\nc685. 藍燄與社會 (並查集)\nb111. 4. 經濟編碼 (霍夫曼)\nc001. 10405 - Longest Common Subsequence(LCS)\ne682. 00531 - Compromise(LCS+)\nd052. 11456 - Trainsorting(LIS+LDS)\nd242. 00481 - What Goes Up(LIS+nlogn)\n題單二\r","date": "2025-06-23 16:24:00",
+    "updated": "2025-06-23 16:24:00"
+  }, 
+  {
+    "objectID": "1750667040",
+    "permalink": "/post/25-6-23/",
+    "title": "日記：2025/6/23","content": "\r學習程式\r正常指標\rstruct Node { int v; Node *l = npt,*r = npt; } 但指標常常戳到其他很厲害的地方我不喜歡 但直接用rt[Mxn]我也不是很喜歡，翻完網路上後我覺得下面的最對我的胃口(大霧)\n偽指標\rstruct Node { int l = -1,r = -1; int v; }node_list[Mxn]; 之後可能多考慮使用偽指標，感覺打競程用偽指標比較方便\n例題\rd526. Binary Search Tree (BST)\nAC Code\n#include \u0026lt;bits/stdc++.h\u0026gt; using namespace std; #define int long long #define shixia ios_base::sync_with_stdio(0),cin.tie(0) #define all(x) x.begin(),x.end() int n,cnt; const int Mxn = 1001; struct Node { int l = -1,r = -1; int v; }node_list[Mxn]; void build(){ memset(node_list,-1,sizeof(node_list)); for(int i=0;i\u0026lt;n;i++){ int x; cin\u0026gt;\u0026gt;x; if(i==0){ node_list[i].v = x; continue; } int ind = 0; while(ind!=i){ if(x\u0026lt;node_list[ind].v){ if(node_list[ind].l==-1) node_list[ind].l = i; ind = node_list[ind].l; } else{ if(node_list[ind].r==-1) node_list[ind].r = i; ind = node_list[ind].r; } } node_list[i].v = x; } return; } void print(int i){ cout\u0026lt;\u0026lt;node_list[i].v\u0026lt;\u0026lt;\u0026#34; \u0026#34;; if(node_list[i].l!=-1) print(node_list[i].l); if(node_list[i].r!=-1) print(node_list[i].r); return; } signed main(){ shixia; while(cin\u0026gt;\u0026gt;n){ build(); print(0); cout\u0026lt;\u0026lt;\u0026#34;\\n\u0026#34;; } return 0; } ","date": "2025-06-23 16:24:00",
+    "updated": "2025-06-23 16:24:00"
+  }, 
+  {
     "objectID": "1750580640",
     "permalink": "/post/25-6-22/",
     "title": "日記：2025/6/22","content": "\r重大決定!!!\r今天終於把網站架設好了qwq，昨天一直卡在上傳至github 今日這邊會更新我學習的筆記\u0026amp;\u0026amp;每日日記 希望可以一直堅持下去\n之後也會更新是怎麼架設這個網站以及我踩到的一些坑以及如何魔改這個主題，讓網站充滿自己的老婆\n","date": "2025-06-22 16:24:00",

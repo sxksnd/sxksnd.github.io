@@ -12,12 +12,114 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Sun, 22 Jun 2025 16:24:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 16:24:00 +0800</lastBuildDate>
     
     
     <atom:link href="https://sxksnd.github.io/tags/diary/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>日記：2025/6/23</title>
+      <link>https://sxksnd.github.io/post/25-6-23/</link>
+      <pubDate>Mon, 23 Jun 2025 16:24:00 &#43;0800</pubDate>
+      <author>shixia1108@gmail.com (ShiXia)</author>
+      <guid>https://sxksnd.github.io/post/25-6-23/</guid>
+      <description>
+        <![CDATA[<h1>日記：2025/6/23</h1><p>Author: ShiXia(shixia1108@gmail.com)</p>
+        
+          <h1 id="學習程式">
+<a class="header-anchor" href="#%e5%ad%b8%e7%bf%92%e7%a8%8b%e5%bc%8f"></a>
+學習程式
+</h1><h2 id="正常指標">
+<a class="header-anchor" href="#%e6%ad%a3%e5%b8%b8%e6%8c%87%e6%a8%99"></a>
+正常指標
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">Node</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">v</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Node</span> <span class="o">*</span><span class="n">l</span> <span class="o">=</span> <span class="n">npt</span><span class="p">,</span><span class="o">*</span><span class="n">r</span> <span class="o">=</span> <span class="n">npt</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>但指標常常戳到其他很厲害的地方<del>我不喜歡</del>
+但直接用<code>rt[Mxn]</code>我也不是很喜歡，翻完網路上後我覺得下面的最對我的胃口(大霧)</p>
+<h2 id="偽指標">
+<a class="header-anchor" href="#%e5%81%bd%e6%8c%87%e6%a8%99"></a>
+偽指標
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">Node</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">l</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">r</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">v</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span><span class="n">node_list</span><span class="p">[</span><span class="n">Mxn</span><span class="p">];</span>
+</span></span></code></pre></div><p>之後可能多考慮使用偽指標，感覺打競程用偽指標比較方便</p>
+<h2 id="例題">
+<a class="header-anchor" href="#%e4%be%8b%e9%a1%8c"></a>
+例題
+</h2><p><a href="https://zerojudge.tw/ShowProblem?problemid=d526">d526. Binary Search Tree (BST)</a></p>
+<p>AC Code</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">#define int long long
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define shixia ios_base::sync_with_stdio(0),cin.tie(0)
+</span></span></span><span class="line"><span class="cl"><span class="cp">#define all(x) x.begin(),x.end()
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">n</span><span class="p">,</span><span class="n">cnt</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">int</span> <span class="n">Mxn</span> <span class="o">=</span> <span class="mi">1001</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">struct</span> <span class="nc">Node</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">l</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">r</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">v</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span><span class="n">node_list</span><span class="p">[</span><span class="n">Mxn</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">build</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">memset</span><span class="p">(</span><span class="n">node_list</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="k">sizeof</span><span class="p">(</span><span class="n">node_list</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">x</span><span class="p">;</span> <span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">i</span><span class="o">==</span><span class="mi">0</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">            <span class="n">node_list</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">v</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">ind</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">while</span><span class="p">(</span><span class="n">ind</span><span class="o">!=</span><span class="n">i</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="n">x</span><span class="o">&lt;</span><span class="n">node_list</span><span class="p">[</span><span class="n">ind</span><span class="p">].</span><span class="n">v</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span><span class="p">(</span><span class="n">node_list</span><span class="p">[</span><span class="n">ind</span><span class="p">].</span><span class="n">l</span><span class="o">==-</span><span class="mi">1</span><span class="p">)</span> <span class="n">node_list</span><span class="p">[</span><span class="n">ind</span><span class="p">].</span><span class="n">l</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">ind</span> <span class="o">=</span> <span class="n">node_list</span><span class="p">[</span><span class="n">ind</span><span class="p">].</span><span class="n">l</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            <span class="k">else</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span><span class="p">(</span><span class="n">node_list</span><span class="p">[</span><span class="n">ind</span><span class="p">].</span><span class="n">r</span><span class="o">==-</span><span class="mi">1</span><span class="p">)</span> <span class="n">node_list</span><span class="p">[</span><span class="n">ind</span><span class="p">].</span><span class="n">r</span> <span class="o">=</span> <span class="n">i</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                <span class="n">ind</span> <span class="o">=</span> <span class="n">node_list</span><span class="p">[</span><span class="n">ind</span><span class="p">].</span><span class="n">r</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="n">node_list</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">v</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">print</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">node_list</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">v</span><span class="o">&lt;&lt;</span><span class="s">&#34; &#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">node_list</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">l</span><span class="o">!=-</span><span class="mi">1</span><span class="p">)</span> <span class="n">print</span><span class="p">(</span><span class="n">node_list</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">l</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span><span class="p">(</span><span class="n">node_list</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">r</span><span class="o">!=-</span><span class="mi">1</span><span class="p">)</span> <span class="n">print</span><span class="p">(</span><span class="n">node_list</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">r</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">signed</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">shixia</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span><span class="p">(</span><span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">n</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">        <span class="n">build</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">print</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&#34;</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+        
+        <hr><p>Published on 2025-06-23 at <a href='https://sxksnd.github.io/'>矽夏の夢想之地</a>, last modified on 2025-06-23</p>]]>
+      </description>
+      
+        <category>diary</category>
+      
+    </item>
     
     
 
