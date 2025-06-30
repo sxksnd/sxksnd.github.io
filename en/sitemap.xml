@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sxksnd.github.io/categories/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+    <lastmod>2025-06-30T09:30:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -25,20 +25,14 @@
                 href="https://sxksnd.github.io/categories/"
                 />
   </url><url>
-    <loc>https://sxksnd.github.io/categories/cp/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+    <loc>https://sxksnd.github.io/categories/life/</loc>
+    <lastmod>2025-06-30T09:30:00+08:00</lastmod>
   </url><url>
-    <loc>https://sxksnd.github.io/tags/cp/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
-  </url><url>
-    <loc>https://sxksnd.github.io/categories/diary/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
-  </url><url>
-    <loc>https://sxksnd.github.io/tags/diary/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+    <loc>https://sxksnd.github.io/tags/study/</loc>
+    <lastmod>2025-06-30T09:30:00+08:00</lastmod>
   </url><url>
     <loc>https://sxksnd.github.io/tags/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+    <lastmod>2025-06-30T09:30:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -60,14 +54,8 @@
                 href="https://sxksnd.github.io/tags/"
                 />
   </url><url>
-    <loc>https://sxksnd.github.io/post/plan/%E4%BA%8C%E4%BF%A1training/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
-  </url><url>
-    <loc>https://sxksnd.github.io/post/25-6-23/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
-  </url><url>
     <loc>https://sxksnd.github.io/</loc>
-    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+    <lastmod>2025-06-30T09:30:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -88,6 +76,27 @@
                 hreflang="en"
                 href="https://sxksnd.github.io/"
                 />
+  </url><url>
+    <loc>https://sxksnd.github.io/post/plan/schedule/</loc>
+    <lastmod>2025-06-30T09:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sxksnd.github.io/categories/cp/</loc>
+    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sxksnd.github.io/tags/cp/</loc>
+    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sxksnd.github.io/categories/diary/</loc>
+    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sxksnd.github.io/tags/diary/</loc>
+    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sxksnd.github.io/post/plan/%E4%BA%8C%E4%BF%A1training/</loc>
+    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
+  </url><url>
+    <loc>https://sxksnd.github.io/post/25-6-23/</loc>
+    <lastmod>2025-06-23T16:24:00+08:00</lastmod>
   </url><url>
     <loc>https://sxksnd.github.io/about/</loc>
     <lastmod>2025-06-22T16:34:00+08:00</lastmod>
